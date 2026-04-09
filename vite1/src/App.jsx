@@ -3,6 +3,7 @@
 import './App.css'
 import Funct1 from './Pages/Funct1';
 import Funct2 from './Pages/Funct2';
+import ToDoList from './Pages/newpages/ToDoList';
 
 function App() {
 
@@ -33,10 +34,12 @@ return title3;
 <h4>This is from a function return:{getTitle('React3')}</h4>
 <button id="button">Click me</button>
 
-  <br />
+<ToDoList />
+
+  {/* <br />
  <Funct1 />
    <br />
-   <Funct2/>
+   <Funct2/> */}
 
     </>
   
