@@ -3,6 +3,7 @@
 import './App.css'
 import Funct1 from './Pages/Funct1';
 import Funct2 from './Pages/Funct2';
+import List from './Pages/newpages/newComponents/List';
 import ToDoList from './Pages/newpages/ToDoList';
 
 function App() {
@@ -35,6 +36,10 @@ return title3;
 <button id="button">Click me</button>
 
 <ToDoList />
+list component
+
+
+<List />
 
   {/* <br />
  <Funct1 />
